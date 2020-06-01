@@ -1,0 +1,91 @@
+header{
+	text-align: center;
+	color: black;
+	font-family: serif;
+	font-size: 150%;
+	font-weight: bold;
+}
+div{
+    position: relative;
+	box-sizing: border-box;
+	height:250px;
+	padding:30px;
+    border: 5px solid black;
+    margin: 1%;
+    background-color: grey;
+    float:left;
+    margin-top:40px; 
+    display: inline;
+    }
+
+p{
+	font-size: 20px;
+	position: absolute;
+   top:-17px;
+   right:0px;
+  font-size: 100%;  
+  width:100px;
+  height:20px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+#name{	
+	background-color: red;	
+
+}
+#name1{	
+	background-color: yellow;	
+}
+#name2{
+  background-color: pink;	
+
+}
+@media (min-width: 992px)
+{
+	.ss{
+     width:30%;
+	}
+	.sq{
+		width:30%;
+	}
+	.qwe{
+		width:30%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.ss{
+		width:48%;
+		float:left;
+		
+	}
+	.sq{
+		width: 48%;
+		float:right;
+		clear: right;
+		
+	}
+	.qwe
+	{
+		width:99%;
+		margin:1%;
+		height:150px;
+	}
+}
+@media (min-width: 0px) and (max-width: 767px)
+{
+	.ss{
+		width:100%;
+		float: left;
+	}
+	.sq{
+		width: 100%;
+		float:left;
+
+	}
+	.qwe{
+		width:100%;
+		float: left;
+	}
+}
